@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <div id ="container" class="container">
+    <div id="left" class="left">
+      <div class="left-info">
+        <h1>
+          Stay updated!
+          </h1>
+          <p>
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul>
+            <li>
+              Product discovery and building what matters
+            </li>
+            <li>
+              Measuring to ensure updates are a success
+            </li>
+            <li>
+              And much more!
+            </li>
+          </ul>
+      </div>
+        
+      <form id="form">
+        <div class="form-item">
+          <label for="email">
+            <p>Email address</p>
+            <p id="invalid-email" class="invalid-email">
+              Valid email required</p>
+          </label>
+          <input type="email" name="email" id="email" placeholder=" email@company.com">
+        </div>
+        <div class="form-item">
+          <button id="submit-btn" type="submit">
+          Subscribe to monthly newsletter
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div id="right" class="right">
+      <picture>
+        <source media="(max-width: 760px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+      </picture>
+    </div>
+    <div id="confirmed-message" class="confirmed-message">
+      <img src="./assets/images/icon-success.svg" alt="">
+      <h2>
+        Thanks for subscribing!
+      </h2>
+      <p>
+        A confirmation email has been sent to <span id="user-email"></span>. 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <button id="dismiss-message">Dismiss message</button>
+    </div>
+    <div id="confirmed-message" class="confirmed-message">
+      <img src="./assets/images/icon-success.svg" alt="">
+      <h2>
+        Thanks for subscribing!
+      </h2>
+      <p>
+        A confirmation email has been sent to <span id="user-email"></span>. 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <button id="dismiss-message">Dismiss message</button>
+    </div>
+  </div>
+  
+  
+
+  <script src="main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Sign-up form start
+
+  Stay updated!
+
+  Join 60,000+ product managers receiving monthly updates on:
+
+  Product discovery and building what matters
+  Measuring to ensure updates are a success
+  And much more!
+
+  Email address
+  email@company.com
+
+  Subscribe to monthly newsletter
+
+
+
+  Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+
+  Dismiss message
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
